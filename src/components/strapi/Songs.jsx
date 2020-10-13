@@ -7,6 +7,9 @@ const Songs = () => {
   const strapiContext = useContext(StrapiContext)
   const { songs } = strapiContext
 
+  console.log('STRAPI SONGS')
+  console.log(songs)
+
   return (
     <div className="row">
       {songs.map((song) => (

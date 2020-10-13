@@ -5,6 +5,8 @@ import Author from './Author'
 const Authors = () => {
   const directusContext = useContext(DirectusContext)
   const { authors } = directusContext
+  console.log('DIRECTUS AUTHORS')
+  console.log(authors)
 
   return (
     <div className="row">

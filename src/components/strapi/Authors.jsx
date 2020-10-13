@@ -7,6 +7,9 @@ const Authors = () => {
   const strapiContext = useContext(StrapiContext)
   const { authors } = strapiContext
 
+  console.log('STRAPI AUTHORS')
+  console.log(authors)
+
   return (
     <div className="row">
       <div className="card-deck">
