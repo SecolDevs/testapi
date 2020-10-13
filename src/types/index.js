@@ -1,0 +1,3 @@
+export const STRAPI_GET_DATA = 'STRAPI_GET_SONGS'
+
+export const DIRECTUS_GET_DATA = 'DIRECTUS_GET_SONGS'
